@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="fo">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OceanHire</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #043C5C;
+      color: white;
+      text-align: center;
+    }
+    .container {
+      max-width: 480px;
+      margin: auto;
+      padding: 20px;
+    }
+    .logo {
+      margin-top: 30px;
+    }
+    .logo img {
+      width: 80px;
+    }
+    h1 {
+      font-size: 28px;
+      margin: 10px 0 30px;
+    }
+    .btn {
+      display: block;
+      width: 80%;
+      margin: 10px auto;
+      padding: 15px;
+      background-color: white;
+      color: #043C5C;
+      border: none;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #e1f1ff;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .grid div {
+      background: white;
+      color: #043C5C;
+      padding: 15px;
+      border-radius: 12px;
+      font-weight: bold;
+    }
+    .form input {
+      width: 80%;
+      padding: 12px;
+      margin: 10px auto;
+      border-radius: 8px;
+      border: none;
+      font-size: 14px;
+    }
+    .form button {
+      background-color: #007BFF;
+      color: white;
+      font-weight: bold;
+      padding: 12px 24px;
+      border-radius: 8px;
+      border: none;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/1866/1866069.png" alt="OceanHire logo" />
+    </div>
+    <h1>OceanHire</h1>
+
+    <button class="btn">Skipari</button>
+    <button class="btn">Manning</button>
+
+    <h2 style="margin-top: 40px;">Vel starvsøki</h2>
+    <div class="grid">
+      <div>Skipari</div>
+      <div>Kokkur</div>
+      <div>1. maskinmeistari</div>
+      <div>2. maskinmeistari</div>
+      <div>1. stýrimaður</div>
+      <div>2. stýrimaður</div>
+    </div>
+
+    <h2 style="margin-top: 40px;">Innríta</h2>
+    <div class="form">
+      <input type="email" placeholder="Teldupostur" />
+      <input type="password" placeholder="Loyniorð" />
+      <button>Innríta</button>
+    </div>
+  </div>
+</body>
+</html>
